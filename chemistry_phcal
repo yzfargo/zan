@@ -1,0 +1,19 @@
+import math
+
+def calculate_pH(concentration):
+    """Calculates the pH for a given concentration of a strong acid or strong base."""
+    if concentration <= 0:
+        return "Invalid concentration"
+
+    # Calculate the negative logarithm of the concentration (pH)
+    pH = -math.log10(concentration)
+    return pH
+
+# Prompt user for the concentration of the acid or base
+concentration = float(input("Enter the concentration of the acid or base: "))
+
+# Calculate the pH
+pH = calculate_pH(concentration)
+
+# Display the result
+print("The pH of the solution is:", pH)
