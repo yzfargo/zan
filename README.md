@@ -1,2 +1,2 @@
 # zan
-ikaw ay akin at ako ay iyong iyo
+plz help me im stuck
